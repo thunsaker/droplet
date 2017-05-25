@@ -1,0 +1,21 @@
+{
+    "author": "thunsaker",
+    "dependencies": {},
+    "keywords": [],
+    "name": "droplet",
+    "pebble": {
+        "displayName": "Droplet",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "uuid": "3f05eafb-50fa-49a7-915e-080e3e169139",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
