@@ -9,7 +9,27 @@
         "messageKeys": [],
         "projectType": "native",
         "resources": {
-            "media": []
+            "media": [
+                {
+                    "file": "images/water_off_small",
+                    "name": "IMAGE_DROP_OFF_SMALL",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/water_small.png",
+                    "name": "IMAGE_DROP_SMALL",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/water_large.png",
+                    "name": "IMAGE_DROP_LARGE",
+                    "storageFormat": "png",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
         },
         "sdkVersion": "3",
         "uuid": "3f05eafb-50fa-49a7-915e-080e3e169139",
