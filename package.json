@@ -1,41 +1,55 @@
 {
-    "author": "thunsaker",
-    "dependencies": {},
-    "keywords": [],
-    "name": "droplet",
-    "pebble": {
-        "displayName": "Droplet",
-        "enableMultiJS": false,
-        "messageKeys": [],
-        "projectType": "native",
-        "resources": {
-            "media": [
-                {
-                    "file": "images/water_off_small",
-                    "name": "IMAGE_DROP_OFF_SMALL",
-                    "targetPlatforms": null,
-                    "type": "bitmap"
-                },
-                {
-                    "file": "images/water_small.png",
-                    "name": "IMAGE_DROP_SMALL",
-                    "targetPlatforms": null,
-                    "type": "bitmap"
-                },
-                {
-                    "file": "images/water_large.png",
-                    "name": "IMAGE_DROP_LARGE",
-                    "storageFormat": "png",
-                    "targetPlatforms": null,
-                    "type": "bitmap"
-                }
-            ]
+  "author": "thunsaker",
+  "dependencies": {},
+  "keywords": [],
+  "name": "droplet",
+  "pebble": {
+    "displayName": "Droplet",
+    "enableMultiJS": false,
+    "messageKeys": [],
+    "projectType": "native",
+    "resources": {
+      "media": [
+        {
+          "file": "images/water_icon.png",
+          "menuIcon": true,
+          "name": "WATER_ICON",
+          "targetPlatforms": null,
+          "type": "bitmap"
         },
-        "sdkVersion": "3",
-        "uuid": "3f05eafb-50fa-49a7-915e-080e3e169139",
-        "watchapp": {
-            "watchface": false
+        {
+          "file": "images/water_off_small.png",
+          "name": "IMAGE_DROP_OFF_SMALL",
+          "targetPlatforms": null,
+          "type": "bitmap"
+        },
+        {
+          "file": "images/water_small.png",
+          "name": "IMAGE_DROP_SMALL",
+          "targetPlatforms": null,
+          "type": "bitmap"
+        },
+        {
+          "file": "images/water_large.png",
+          "name": "IMAGE_DROP_LARGE",
+          "storageFormat": "png",
+          "targetPlatforms": null,
+          "type": "bitmap"
         }
+      ]
     },
-    "version": "1.0.0"
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery"
+    ],
+    "uuid": "3f05eafb-50fa-49a7-915e-080e3e169139",
+    "watchapp": {
+      "watchface": false
+    }
+  },
+  "version": "1.0.0"
 }
