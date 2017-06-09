@@ -1,12 +1,20 @@
 {
   "author": "thunsaker",
-  "dependencies": {},
+  "dependencies": {
+    "pebble-clay":"^1.0.1"
+  },
   "keywords": [],
   "name": "droplet",
   "pebble": {
     "displayName": "Droplet",
-    "enableMultiJS": false,
-    "messageKeys": [],
+    "capabilities": [
+      "configurable"
+    ],
+    "enableMultiJS": true,
+    "messageKeys": [
+      "Server",
+      "Password"
+    ],
     "projectType": "native",
     "resources": {
       "media": [
